@@ -38,7 +38,7 @@ plt.ylabel('Anos de Experiência')
 
 # Mapa de Calor
 corr = df[['salario', 'anos_experiencia']].corr() # Correlação entre salário e anos de experiencia
-plt.subplot(2, 2, 3) # 1 Linha, 2 Coluna, 1 (primeiro) Gráfico
+plt.subplot(2, 2, 3) # 1 Linha, 2 Coluna, 3 (terceiro) Gráfico
 sns.heatmap(corr, annot=True, cmap='coolwarm')
 plt.title('Correlação Salário e Idade')
 
